@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        learning-nuxt
+        nuxt是什么？
       </h1>
       <h2 class="subtitle">
         My well-made Nuxt.js project
