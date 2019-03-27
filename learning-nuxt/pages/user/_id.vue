@@ -1,6 +1,8 @@
-
 <template>
-  <nuxt-link to="/">user/id</nuxt-link>
+<div style="padding:30px">
+    <el-tag type="success">这里是用户页面</el-tag>
+    <el-tag><nuxt-link to="/">去首页</nuxt-link></el-tag>
+</div>
 </template>
 
 <script>

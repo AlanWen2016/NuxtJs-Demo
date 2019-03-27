@@ -1,7 +1,7 @@
 <template>
   <div class="header-menu">
     <div class="logo">
-        <img src="~/assets/images/logo_v2_website.jpg">
+        <!-- <img src="~/assets/images/logo_v2_website.jpg"> -->
     </div>
     <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
         <el-menu-item index="1">处理中心</el-menu-item>
@@ -20,7 +20,8 @@
         <el-menu-item index="3" disabled>消息中心</el-menu-item>
         <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
     </el-menu>
-    <nuxt/>
+    <Nuxt name="top" />
+    <Nuxt />
   </div>
 </template>
 
@@ -75,6 +76,7 @@ html {
 .header-menu{
   width: 800px;
   margin: 0 auto;
+  margin-bottom: 30px;
    .logo{
     display: inline-block;
     width: 280px;
