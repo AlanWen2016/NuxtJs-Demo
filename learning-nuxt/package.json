@@ -5,7 +5,7 @@
   "author": "AlanWen",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --host abc.tgl.oa.com --watch server",
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate"
@@ -17,6 +17,7 @@
     "element-ui": "^2.4.11"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
     "node-sass": "^4.11.0",
     "nodemon": "^1.18.9",
     "sass-loader": "^7.1.0",
