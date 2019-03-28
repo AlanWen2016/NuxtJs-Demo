@@ -11,10 +11,14 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
+    "element-ui": "^2.4.11",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "koa": "^2.6.2",
-    "element-ui": "^2.4.11"
+    "nuxt": "^2.4.0",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "axios": "^0.18.0",
